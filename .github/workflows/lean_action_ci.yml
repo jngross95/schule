@@ -22,6 +22,7 @@ jobs:
         run: |
           cd docbuild
           lake exe cache get
+          lake update
           lake build Schule:docs
           cd ..
       #- uses: leanprover-community/docgen-action@v1
