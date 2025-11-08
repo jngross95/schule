@@ -1,4 +1,4 @@
-name = "schule"
+name = "Schule"
 version = "0.1.0"
 keywords = ["math"]
 defaultTargets = ["Schule"]
@@ -12,6 +12,10 @@ maxSynthPendingDepth = 3
 [[require]]
 name = "mathlib"
 scope = "leanprover-community"
+
+[[require]]
+scope = "leanprover"
+name = "doc-gen4"
 
 [[lean_lib]]
 name = "Schule"
