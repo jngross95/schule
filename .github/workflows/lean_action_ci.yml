@@ -18,11 +18,11 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - uses: leanprover/lean-action@v1
-      - name: Build doc
-        run: |
-          cd docbuild
-          lake exe cache get
-          lake update
-          lake build Schule:docs
-          cd ..
+      - name: Build project documentation.
+        id: build-docgen
+        uses: leanprover-community/docgen-action@main
+        with:
+          blueprint: false # Uncomment the next line if you wish to build a blueprint alongside your repository.
+          deploy: false
+          # blueprint: true
       #- uses: leanprover-community/docgen-action@v1
