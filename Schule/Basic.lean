@@ -74,6 +74,6 @@ field_simp [hb, hd]
 
 theorem axiom_mul_inv_cancel
  {R : Type*} [g : Field R] (a : R) (h : a ≠ 0) :
-      a * a⁻¹  =  1    := by
+      a * a⁻¹  =  a    := by
   apply GroupWithZero.mul_inv_cancel
   assumption
