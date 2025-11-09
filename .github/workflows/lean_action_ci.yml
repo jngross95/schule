@@ -22,7 +22,7 @@ jobs:
         id: build-docgen
         uses: leanprover-community/docgen-action@main
         with:
-          blueprint: false # Uncomment the next line if you wish to build a blueprint alongside your repository.
+          blueprint: true # Uncomment the next line if you wish to build a blueprint alongside your repository.
           deploy: true
-          # blueprint: true
+          
       #- uses: leanprover-community/docgen-action@v1
