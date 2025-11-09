@@ -29,4 +29,7 @@ https://jngross95.github.io/schule/blueprint.pdf
 
 leanblueprint pdf
 
+cd /blueprint/src
+plastex -c plastex.cfg web.tex
+
 lake  exe checkdecls blueprint/lean_decls
