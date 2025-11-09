@@ -1,2 +1,4 @@
 /.lake
 /docbuild/.lake
+blueprint/print
+blueprint/web

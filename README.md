@@ -20,4 +20,4 @@ lake build Schule:docs
 
 https://jngross95.github.io/schule/docs/
 
-
+https://jngross95.github.io/schule/docs/Schule/Basic.html
