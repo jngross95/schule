@@ -20,7 +20,7 @@
 
 title: Schule
 #email: your-email@example.com
-description: by Jürgen Gross
+description: by X Y
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jngross95.github.io/schule" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
