@@ -17,3 +17,4 @@ After following the steps above, you can remove this section from the README fil
 cd docbuild
 lake build Schule:docs
 
+
