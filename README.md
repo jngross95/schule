@@ -22,6 +22,10 @@ https://jngross95.github.io/schule/docs/
 
 https://jngross95.github.io/schule/docs/Schule/Basic.html
 
+https://jngross95.github.io/schule/blueprint/
+
+https://jngross95.github.io/schule/blueprint.pdf
+
 
 leanblueprint pdf
 
