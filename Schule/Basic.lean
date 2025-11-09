@@ -20,6 +20,9 @@ open Set
 open Real
 open Mathlib.Tactic
 
+
+namespace Schule
+
 /-!
 # Schule
 
@@ -404,3 +407,7 @@ theorem my_mul_left_neg {G : Type} [g : Group G] (a : G) :
 theorem tt {G : Type} [g : DivInvMonoid G] (a : G) :
        a⁻¹  = 1/a := by
   exact inv_eq_one_div a
+
+
+
+end Schule
