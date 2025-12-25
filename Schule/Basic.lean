@@ -69,7 +69,7 @@ by ring
 /--
 das soll da erscheinen3!!
 $$
-\frac{a}{c} \cdot \frac{b}{d} = \frac{a \cdot b}{c \cdot d}
+\frac{a}{b} \cdot \frac{c}{d} = \frac{a \cdot c}{b \cdot d}
 $$
 -/
 theorem frac_mul
